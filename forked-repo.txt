@@ -1,0 +1,12 @@
+Forking repository via GitHub UI...
+$ curl -s -u username https://api.github.com/repos/original-owner/simple-interest-calculator/forks -d ''
+{
+  "id": 123456789,
+  "name": "simple-interest-calculator",
+  "full_name": "your-username/simple-interest-calculator",
+  "owner": {
+    "login": "your-username"
+  },
+  "html_url": "https://github.com/your-username/simple-interest-calculator",
+  "fork": true
+}
